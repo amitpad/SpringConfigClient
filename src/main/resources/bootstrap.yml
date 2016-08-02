@@ -1,0 +1,14 @@
+#spring:
+#  cloud:
+#    config:
+#      uri: http://localhost:8001
+#server:
+#  port: 8002
+spring:
+  application:
+    name: lucky-word
+  cloud:
+    config:
+      env: client # optional
+      label: master # optional
+      uri: http://localhost:8001 # optional
